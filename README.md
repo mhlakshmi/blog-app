@@ -16,6 +16,8 @@ cd blog-app
 <h3>Install Composer dependencies:</h3>
 composer install
 
+<h3>Copy the .env.example file to a new .env file:</h3>
+cp .env.example .env
 
 <h3>Generate the application key:</h3>
 

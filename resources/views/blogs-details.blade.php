@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KKR Hospital</title>
+    <title>Task</title>
     <link rel="shortcut icon" href="/asset/images/fav-icon.png" type="image/x-icon">
     <meta content="" name="description">
     <meta content="" name="keywords">
@@ -41,11 +41,14 @@
                             $date_time = \Carbon\Carbon::parse($date_string);
                             $month = $date_time->format('F');
                             $day = explode('-', $date_components[0])[2];
-                            $time = $date_components[1];
+                            $time = count($date_components) > 1 ? $date_components[1] : '';
                             @endphp
                             <div class="col-lg-12 col-md-12 col-sm-12 pb-5">
                                 <div class="blogs-details-content-box">
                                     <div class="blogs-content-img-area mb-4">
+                                         <div class="blogs-date">
+                                                <p>{{ $month }} {{ $day }}, {{ $year }}</p>
+                                            </div>
                                         <div class="blogs-img">
                                             <h3>{{ $blog->title }}</h3>
                                             <img src="/asset/images/blogs/{{ $blog->image }}" class="img-fluid" alt="">
