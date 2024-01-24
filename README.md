@@ -48,15 +48,15 @@ The application will be accessible at http://localhost:8000
 http://localhost:8000
 
 <h3>Index page</h3>
-<img src="https://github.com/mhlakshmi/blog-app/blob/main/public/asset/images/blog.png" width="50%" height="50%">
+<img src="https://github.com/mhlakshmi/blog-app/blob/main/public/asset/images/indexpage.png" width="50%" height="50%">
 
 --------------------------------------------------------------------------------
 http://localhost:8000/admin
 <h3>Login page</h3>
-<img src="https://github.com/mhlakshmi/blog-app/blob/main/public/asset/images/blog.png" width="50%" height="50%">
+<img src="https://github.com/mhlakshmi/blog-app/blob/main/public/asset/images/login.png" width="50%" height="50%">
 
 <h3>Registration page</h3>
-<img src="https://github.com/mhlakshmi/blog-app/blob/main/public/asset/images/blog.png" width="50%" height="50%">
+<img src="https://github.com/mhlakshmi/blog-app/blob/main/public/asset/images/register_page.png" width="50%" height="50%">
 
 <h3>Blogs page</h3>
-<img src="https://github.com/mhlakshmi/blog-app/blob/main/public/asset/images/blog.png" width="50%" height="50%">
+<img src="https://github.com/mhlakshmi/blog-app/blob/main/public/asset/images/crud.png" width="50%" height="50%">
