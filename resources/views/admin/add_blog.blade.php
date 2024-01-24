@@ -65,7 +65,7 @@
                                     <select class="form-control select2" name="category" style="width: 100%;">
                                         <option value="" disabled {{ old('category') ? '' : 'selected' }}>Select
                                             category</option>
-                                        <option value="Health Care" {{ old('category')=='Health Care' ? 'selected' : ''
+                                        <option value="Health" {{ old('category')=='Health' ? 'selected' : ''
                                             }}>Health Care</option>
                                         <option value="Fashion" {{ old('category')=='Fashion' ? 'selected' : '' }}>
                                             Fashion</option>

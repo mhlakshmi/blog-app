@@ -11,7 +11,7 @@
 
      <ul class="sidebar-nav" id="sidebar-nav">
          <li class="nav-item">
-             <a class="nav-link collapsed" href="/admin/health">
+             <a class="nav-link collapsed" href="/admin/blogs/Health">
                  <span>Health care Blogs</span>
              </a>
          </li>
@@ -19,7 +19,7 @@
 
      <ul class="sidebar-nav" id="sidebar-nav">
          <li class="nav-item">
-             <a class="nav-link collapsed" href="/admin/fashion">
+             <a class="nav-link collapsed" href="/admin/blogs/Fashion">
                  <span>Fashion Blogs</span>
              </a>
          </li>
@@ -27,7 +27,7 @@
 
      <ul class="sidebar-nav" id="sidebar-nav">
          <li class="nav-item">
-             <a class="nav-link collapsed" href="/admin/food">
+             <a class="nav-link collapsed" href="/admin/blogs/Food">
                  <span>Food Blogs</span>
              </a>
          </li>

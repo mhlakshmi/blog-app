@@ -60,7 +60,7 @@
                                     <select class="form-control select2" name="category" style="width: 100%;" required>
                                         <option value="" disabled>Select category</option>
                                         @php
-                                        $categories = ['Health Care', 'Fashion', 'Food'];
+                                        $categories = ['Health', 'Fashion', 'Food'];
                                         @endphp
                                         @foreach($categories as $category)
                                         <option value="{{ $category }}" {{ $blogs->category == $category ? 'selected' :

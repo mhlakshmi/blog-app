@@ -37,4 +37,4 @@ Route::post('insert_blog',[AdminController::class,'insert_blog'])->name('update_
 Route::post('/update_blogs/{id}',[AdminController::class,'update_blogs'])->name('update_blogs');
 Route::get('/delet_blogs/{id}', [AdminController::class, 'delet_blogs'])->name('delet_blogs');
 
-Route::get('/blogs/{category}', [AdminController::class, 'showBlogs']);
+Route::get('/admin/blogs/{category?}', [AdminController::class, 'showBlogs']);
