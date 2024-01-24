@@ -1,33 +1,28 @@
-Blog-APP
+<h1>Blog-APP</h1>
 
-Prerequisites
+<h2>Prerequisites</h2>
 Wamp64 , Composer
 
 <h2>Installation</h2>
-Clone the repository:
+<h3>Clone the repository:</h3>
 
 git clone https://github.com/mhlakshmi/blog-app.git
 
-Navigate to the project folder:
+<h3>Navigate to the project folder:</h3>
 
 cd blog-app
 
 
-Install Composer dependencies:
+<h3>Install Composer dependencies:</h3>
 composer install
 
 
-Copy the .env.example file to a new .env file:
-
-cp .env.example .env
-
-
-Generate the application key:
+<h3>Generate the application key:</h3>
 
 php artisan key:generate
 
 
-Configure your database in the .env file:
+<h3>Configure your database in the .env file:</h3>
 
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
@@ -37,10 +32,31 @@ DB_USERNAME=your_database_username
 DB_PASSWORD=your_database_password
 Update the values according to your database setup.
 
-Run the database migrations:
+<h3>Run the database migrations:</h3>
 
 php artisan migrate
 
-Run the application :
+<h3>Run the application :<h3>
 
 php artisan serve
+
+--------------------------------------------------------------------------------
+
+The application will be accessible at http://localhost:8000
+
+--------------------------------------------------------------------------------
+http://localhost:8000
+
+<h3>Index page</h3>
+<img src="/asset/images/blog.png" width="50%" height="50%">
+
+--------------------------------------------------------------------------------
+http://localhost:8000/admin
+<h3>Login page</h3>
+<img src="/asset/images/login.png" width="50%" height="50%">
+
+<h3>Registration page</h3>
+<img src="/asset/images/register.png" width="50%" height="50%">
+
+<h3>Blogs page</h3>
+<img src="/asset/images/crud.png" width="50%" height="50%">
