@@ -30,7 +30,9 @@
         <div class="page-body-wrapper">
             <!--  blogs-start-->
             <section>
-                <div class="blogs-section sec-bottom sec-top">
+                
+                <div class="blogs-section sec-bottom sec-top pb-4">
+                <br>
                     <div class="container">
                         <div class="row">
                             <div class="home-title-content blogs-title-area pb-4">
